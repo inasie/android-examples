@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#F8F8F8</color>
+    <color name="color_primary2">#FFFFFF</color>
+    <color name="color_primary3">#DDDDDD</color>
+    <color name="color_inverse">#18181A</color>
+    <color name="color_inverse2">#24242F</color>
+
+    <color name="color_accent">#0C0E59</color>
+    <color name="color_layout_background">@color/color_primary</color>
+    <color name="color_item_background">@color/color_primary2</color>
+
+    <color name="color_text_1">#313131</color>
+    <color name="color_text_2">#5A5A5A</color>
+    <color name="color_text_3">#8d9298</color>
+    <color name="color_text_4">#A0A0A0</color>
+    <color name="color_text_inverse_1">#F2F3F5</color>
+    <color name="color_text_inverse_2">#D4D4D4</color>
+    <color name="color_text_inverse_3">#B4B4B4</color>
+    <color name="color_text_inverse_4">#9F9F9F</color>
+</resources>
