@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.Skeleton" parent="Theme.MaterialComponents.DayNight">
+    <style name="Theme.Examples" parent="Theme.MaterialComponents.DayNight">
         <item name="colorPrimary">@color/color_primary</item>
         <item name="colorPrimaryVariant">@color/color_primary2</item>
         <item name="colorOnPrimary">@color/color_text_1</item>

@@ -3,7 +3,7 @@ package com.inasie.examples.model.utils
 import android.util.Log
 
 object Log {
-    private const val TAG = "SKELETON"
+    private const val TAG = "EXAMPLES"
 
     fun i(msg: String) {
         Log.i(TAG, getDecoratedLog(msg))

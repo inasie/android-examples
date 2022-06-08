@@ -16,5 +16,7 @@ class MainActivity : AppCompatActivity() {
         val binding: ActivityMainBinding =
             DataBindingUtil.setContentView(this, R.layout.activity_main)
         binding.viewModel = ViewModelProvider(this, ViewModelFactory(ViewType.ACTIVITY_MAIN, null))[MainActivityViewModel::class.java]
+
+        supportActionBar?.elevation = 0f
     }
 }
