@@ -5,10 +5,7 @@ import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import com.inasie.examples.R
 import com.inasie.examples.model.main.ExampleType
-import com.inasie.examples.view.fragment.examples.DataBindingFragment
-import com.inasie.examples.view.fragment.examples.ElevationFragment
-import com.inasie.examples.view.fragment.examples.MenuFragment
-import com.inasie.examples.view.fragment.examples.TouchEffectFragment
+import com.inasie.examples.view.fragment.examples.*
 
 class ExampleActivity : AppCompatActivity() {
 
@@ -33,6 +30,7 @@ class ExampleActivity : AppCompatActivity() {
             ExampleType.SELECT_EFFECT -> TouchEffectFragment()
             ExampleType.DATA_BINDING -> DataBindingFragment()
             ExampleType.MENU -> MenuFragment()
+            ExampleType.THEME -> ThemeFragment()
         }
         supportFragmentManager
             .beginTransaction()

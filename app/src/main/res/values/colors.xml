@@ -9,6 +9,7 @@
     <color name="color_accent">#0C0E59</color>
     <color name="color_layout_background">@color/color_primary</color>
     <color name="color_item_background">@color/color_primary2</color>
+    <color name="color_item_selected">#4D4D4D</color>
 
     <color name="color_text_1">#313131</color>
     <color name="color_text_2">#5A5A5A</color>
