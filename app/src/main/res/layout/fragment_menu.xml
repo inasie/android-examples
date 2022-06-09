@@ -10,5 +10,4 @@
             android:layout_centerHorizontal="true"
             android:text="Menu 예제" />
     </RelativeLayout>
-
 </layout>
