@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_layout_background"
+        android:orientation="vertical">
+        <TextView
+            style="@style/TextLarge"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_large"
+            android:textFontWeight="100"
+            android:text="sans-serif, 한글, fontWeight 100" />
+        <TextView
+            style="@style/TextLarge"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_large"
+            android:textFontWeight="200"
+            android:text="sans-serif, 한글,fontWeight 200" />
+        <TextView
+            style="@style/TextLarge"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_large"
+            android:textFontWeight="300"
+            android:text="sans-serif, 한글, fontWeight 300" />
+        <TextView
+            style="@style/TextLarge"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_large"
+            android:textFontWeight="400"
+            android:text="sans-serif, 한글, fontWeight 400" />
+        <TextView
+            style="@style/TextLarge"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_large"
+            android:textFontWeight="500"
+            android:text="sans-serif, 한글, fontWeight 500" />
+        <TextView
+            style="@style/TextLarge"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_large"
+            android:textFontWeight="600"
+            android:text="sans-serif, 한글, fontWeight 600" />
+        <TextView
+            style="@style/TextLarge"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_large"
+            android:textFontWeight="700"
+            android:text="sans-serif, 한글, fontWeight 700" />
+        <TextView
+            style="@style/TextLarge"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_large"
+            android:textFontWeight="800"
+            android:text="sans-serif, 한글, fontWeight 800" />
+        <TextView
+            style="@style/TextLarge"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_large"
+            android:textFontWeight="900"
+            android:text="sans-serif, 한글, fontWeight 900" />
+    </LinearLayout>
+</layout>

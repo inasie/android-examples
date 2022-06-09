@@ -5,7 +5,8 @@ enum class ExampleType(val text: String) {
     ELEVATION("그림자"),
     DATA_BINDING("데이터 바인딩"),
     MENU("메뉴"),
-    THEME("테마");
+    THEME("테마"),
+    FONT("폰트");
 
     companion object {
         fun fromName(name: String) = values().find { it.name == name } ?: SELECT_EFFECT

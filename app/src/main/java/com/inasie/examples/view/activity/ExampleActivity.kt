@@ -31,6 +31,7 @@ class ExampleActivity : AppCompatActivity() {
             ExampleType.DATA_BINDING -> DataBindingFragment()
             ExampleType.MENU -> MenuFragment()
             ExampleType.THEME -> ThemeFragment()
+            ExampleType.FONT -> FontFragment()
         }
         supportFragmentManager
             .beginTransaction()
