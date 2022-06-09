@@ -11,6 +11,7 @@ import com.inasie.examples.databinding.FragmentTouchEffectBinding
 
 class TouchEffectFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+        // https://blog.danune.co.kr/5
 
         val binding = DataBindingUtil.inflate<FragmentTouchEffectBinding>(
             inflater,

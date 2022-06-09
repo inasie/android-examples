@@ -11,6 +11,7 @@ import com.inasie.examples.databinding.FragmentElevationBinding
 
 class ElevationFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+        // https://blog.danune.co.kr/7?category=1016799
 
         val binding = DataBindingUtil.inflate<FragmentElevationBinding>(
             inflater,
