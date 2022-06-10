@@ -8,6 +8,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import com.inasie.examples.R
 import com.inasie.examples.databinding.FragmentDataBindingBinding
+import com.inasie.examples.viewmodel.fragment.FragmentDataBindingViewModel
 
 class DataBindingFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
@@ -19,7 +20,7 @@ class DataBindingFragment : Fragment() {
             container,
             false
         )
-        binding.text = "Hello data binding"
+        binding.viewModel = FragmentDataBindingViewModel()
         return binding.root
     }
 }

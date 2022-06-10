@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
     <data>
         <variable
-            name="text"
-            type="String" />
+            name="viewModel"
+            type="com.inasie.examples.viewmodel.fragment.FragmentDataBindingViewModel" />
     </data>
-    <RelativeLayout
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <TextView
-            style="@style/TextLarge"
-            android:layout_centerInParent="true"
-            android:text="@{text}"/>
-    </RelativeLayout>
+        android:layout_height="match_parent"
+        android:background="@color/color_layout_background">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <FrameLayout
+                style="@style/layoutItem">
+                <TextView
+                    style="@style/TextLarge"
+                    android:text="@{viewModel.text}" />
+            </FrameLayout>
+            <FrameLayout
+                style="@style/layoutItem">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@={viewModel.text}" />
+            </FrameLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
 </layout>
