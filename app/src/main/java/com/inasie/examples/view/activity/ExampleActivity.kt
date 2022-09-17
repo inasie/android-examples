@@ -32,6 +32,7 @@ class ExampleActivity : AppCompatActivity() {
             ExampleType.MENU -> MenuFragment()
             ExampleType.THEME -> ThemeFragment()
             ExampleType.FONT -> FontFragment()
+            ExampleType.TAB -> TabFragment()
         }
         supportFragmentManager
             .beginTransaction()
